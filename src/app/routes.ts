@@ -11,4 +11,6 @@ export const router = createBrowserRouter([
     path: "/garage/:id",
     Component: GarageDetailPage,
   },
-]);
+], {
+  basename: "/garage", // This tells the app it's running in the /garage/ subfolder
+});
